@@ -223,6 +223,7 @@ with torch.no_grad():
 
 <img width="657" alt="Screenshot 2025-03-29 at 11 16 51 AM" src="https://github.com/user-attachments/assets/23cd6474-cbf5-4321-b5ee-2b0c8a4e9914" />
 
+<img width="409" alt="Screenshot 2025-03-29 at 11 19 41 AM" src="https://github.com/user-attachments/assets/711aebea-ef69-485e-8a42-44a6ddf23ff6" />
 
 ## Confusion Matrix
 
