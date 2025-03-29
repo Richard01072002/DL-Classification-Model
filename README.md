@@ -10,45 +10,42 @@ The Iris dataset consists of 150 samples from three species of iris flowers (Iri
 Include the neural network model diagram.
 
 ## DESIGN STEPS
-### STEP 1: 
+#### **STEP 1: Data Collection and Preprocessing**  
+- Load the **Iris dataset** from `iris.csv`.  
+- Check for **missing values** and **duplicates** (if necessary).  
+- Split data into **features (X)** and **labels (y)**.  
+- Convert categorical labels into numerical form if needed.  
 
- Data Collection and Preprocessing
-     Load the Iris dataset from iris.csv.
+#### **STEP 2: Data Visualization**  
+- Use **scatter plots** to visualize relationships between features.  
+- Assign different colors for different Iris species.  
+- Identify any outliers or patterns in the data.  
 
-### STEP 2: 
+#### **STEP 3: Train-Test Split and Data Preparation**  
+- Split the dataset into **training (80%)** and **testing (20%)** sets.  
+- Convert data into **PyTorch tensors** for model training.  
+- Create a **custom PyTorch Dataset** for efficient data loading.  
 
-Data Visualization
-    Use scatter plots to visualize relationships between features.
+#### **STEP 4: Model Definition and Compilation**  
+- Define a **Neural Network model** using `torch.nn.Module`.  
+- Include:
+  - **Input layer** (4 neurons for 4 features)  
+  - **Two hidden layers** with activation functions  
+  - **Output layer** (3 neurons for 3 classes)  
+- Choose an **appropriate loss function** (`CrossEntropyLoss`).  
+- Select an **optimizer** (`Adam` with a learning rate of 0.01).  
 
-### STEP 3: 
+#### **STEP 5: Model Training**  
+- Train the model for **100 epochs**.  
+- Track **loss reduction** over epochs.  
+- Update weights using **backpropagation and optimization**.  
 
-Train-Test Split and Data Preparation
-    Split the dataset into training (80%) and testing (20%) sets.
-
-### STEP 4: 
-
-Model Definition and Compilation
-    Define a Neural Network model using torch.nn.Module.
-
-### STEP 5: 
-
- Model Training
-    Train the model for 100 epochs.
-    Track loss reduction over epochs.
-
-### STEP 6: 
-Model Evaluation & Prediction
-    Evaluate model performance on the test dataset.
-    Calculate accuracy and final loss.
-
-### STEP 7:
-Save the trained model using torch.save().
-    Load the model and predict on a new (mystery) Iris flower.
-
-### STEP 8:
-Visualize the mystery iris on the scatter plot.
-
-
+#### **STEP 6: Model Evaluation & Prediction**  
+- Evaluate model performance on the **test dataset**.  
+- Calculate **accuracy** and **final loss**.  
+- Save the trained model using `torch.save()`.  
+- Load the model and **predict on a new (mystery) Iris flower**.  
+- Visualize the **mystery iris** on the scatter plot.
 
 
 ## PROGRAM
