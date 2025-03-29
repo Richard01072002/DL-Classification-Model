@@ -216,8 +216,8 @@ with torch.no_grad():
 <img width="818" alt="Screenshot 2025-03-29 at 11 14 51 AM" src="https://github.com/user-attachments/assets/a72bf958-0c96-43de-b1c3-8b378a209326" />
 
 ### OUTPUT
-##### OUTPUT 1:
-<img width="1291" alt="Screenshot 2025-03-29 at 11 16 19 AM" src="https://github.com/user-attachments/assets/ae7755d7-a878-4489-90d9-ed3e3c3767d9" />
+
+
 
 <img width="287" alt="Screenshot 2025-03-29 at 11 16 32 AM" src="https://github.com/user-attachments/assets/ac6393e5-6918-493c-84a7-b13b8f32072b" />
 
