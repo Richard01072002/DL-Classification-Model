@@ -233,4 +233,4 @@ Include classification report here
 Include your sample input and output here
 
 ## RESULT
-Include your result here
+This project demonstrates how a simple deep learning model can accurately classify iris flowers based on four numerical features. The same approach can be expanded for more complex classification problems in domains like healthcare, agriculture, and image recognition.
